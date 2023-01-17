@@ -1,0 +1,62 @@
+.containerImei {
+  margin: 7% 25%;
+  padding: 50px;
+  height: 360px;
+  background-color: rgb(33, 33, 33);
+  box-shadow: 10px 10px 5px rgb(148, 148, 148);
+  border-radius: 16px;
+}
+
+.input {
+  margin-top: 10px;
+  padding: 5px;
+  color: black;
+  width: 50%;
+  border-radius: 10px 0px 0px 10px;
+  border: 0px;
+}
+
+.button1 {
+  height: 34px;
+  width: 20%;
+  border: 0px;
+  background-color: rgb(175, 235, 255);
+  border-radius: 0px;
+}
+
+.button2 {
+  height: 34px;
+  width: 20%;
+  border: 0px;
+  background-color: rgb(216, 122, 228);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.imeiInput {
+  width: 100%;
+}
+.contentContainer {
+  align-items: center;
+  display: flex;
+}
+.infoContainer {
+  margin-top: 38px;
+}
+
+@media screen and (max-width: 980px) {
+  .containerImei {
+    margin: 5%;
+  }
+}
+
+
+.v1{
+  background-color: rgb(216, 122, 228)
+}
+.v2{
+  background-color: rgb(162, 97, 171)
+}
+
+.v3{
+  background-color: rgb(104, 66, 109);
+}
