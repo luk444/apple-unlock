@@ -10,7 +10,7 @@ const NavBar = () => {
           <img alt="" src={logo} width={60} /> Apple Unlock
         </Navbar.Brand>
         <Nav>
-          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="blacklist.html">Home</Nav.Link>
           <Nav.Link href="#features">Services</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
         </Nav>

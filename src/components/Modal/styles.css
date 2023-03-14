@@ -15,10 +15,10 @@
 /* Modal Content/Box */
 .modal-content {
   background-color: #1d1d1d;
-  margin: 3% auto; /* 15% from the top and centered */
+  margin: 5% auto; /* 15% from the top and centered */
   padding: 15px;
   border: 1px solid #888;
-  width: 24%; /* Could be more or less, depending on screen size */
+  width: 21%; /* Could be more or less, depending on screen size */
   height: 510px;
   display: flex;
 }

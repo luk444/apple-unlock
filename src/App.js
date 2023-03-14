@@ -32,4 +32,11 @@ const App = () => {
   );
 };
 
+function hideSelect() {
+  var phoneSelector = document.getElementById("phoneSelector");
+  phoneSelector.style.display = "none";
+}
+
+  
+
 export default App;

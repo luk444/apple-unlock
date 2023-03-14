@@ -8,7 +8,7 @@ const ImeiSearcher = ({ onSearch, onSelectIphone }) => {
   const [input, setInput] = useState(null);
   return (
     <div className="containerImei">
-      <h2>Registrar Dispositivo</h2>
+      <h2>Register Device</h2>
       <div className="contentContainer">
         <div className="imeiInput">
           <input
@@ -19,7 +19,7 @@ const ImeiSearcher = ({ onSearch, onSelectIphone }) => {
           />
           <button
             className="button1"
-            onClick={() => onSearch(input)}
+            onClick={() => onSearch (input)}
             disabled={input === null}
           >
             <img src={register} width={15} alt="search" />
